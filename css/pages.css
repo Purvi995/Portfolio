@@ -1,0 +1,303 @@
+
+/* ==========================
+   GOOGLE FONT
+=========================== */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    min-height:100vh;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    text-align:center;
+    padding:60px 20px 40px;
+}
+
+header h1{
+    font-size:3rem;
+    color:#fff;
+    margin-bottom:15px;
+}
+
+header p{
+    color:#cbd5e1;
+    font-size:1.1rem;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.home-btn{
+    display:inline-block;
+    margin-top:30px;
+    text-decoration:none;
+    color:white;
+    background:#8b5cf6;
+    padding:12px 28px;
+    border-radius:30px;
+    transition:.4s;
+}
+
+.home-btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px #8b5cf6;
+}
+
+/* ===========================
+   PROJECT GRID
+=========================== */
+
+.projects{
+
+    width:90%;
+    max-width:1400px;
+    margin:50px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+
+    gap:35px;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.1);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(139,92,246,.35);
+
+}
+
+.card img{
+
+    width:100%;
+    height:220px;
+    object-fit:cover;
+
+}
+
+.card h2{
+
+    padding:20px 20px 10px;
+    font-size:1.5rem;
+
+}
+
+.card p{
+
+    padding:0 20px;
+    color:#cbd5e1;
+    line-height:1.7;
+    margin-bottom:20px;
+
+}
+
+/* ===========================
+   TECH STACK
+=========================== */
+
+.tech{
+
+    padding:0 20px 20px;
+
+}
+
+.tech span{
+
+    display:inline-block;
+
+    margin:6px;
+
+    padding:8px 16px;
+
+    background:#8b5cf6;
+
+    border-radius:30px;
+
+    font-size:.85rem;
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:20px;
+
+}
+
+.buttons a{
+
+    flex:1;
+
+    text-align:center;
+
+    margin:0 5px;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#8b5cf6;
+
+    transition:.35s;
+
+}
+
+.buttons a:hover{
+
+    background:#a855f7;
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 20px #8b5cf6;
+
+}
+
+/* ===========================
+IMAGE HOVER
+=========================== */
+
+.card img{
+
+    transition:.5s;
+
+}
+
+.card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+header h1{
+
+font-size:2.5rem;
+
+}
+
+.projects{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:600px){
+
+header{
+
+padding:40px 20px;
+
+}
+
+header h1{
+
+font-size:2rem;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+}
+
+.buttons a{
+
+margin:8px 0;
+
+}
+
+.card img{
+
+height:200px;
+
+}
+
+}
+
+/* ===========================
+SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111827;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#8b5cf6;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#a855f7;
+
+}*/

@@ -301,3 +301,115 @@ border-radius:20px;
 background:#a855f7;
 
 }*/
+
+
+/* ==========================================
+CONTACT PAGE
+========================================== */
+
+.contact-page {
+
+```
+width: 90%;
+max-width: 1200px;
+
+margin: auto;
+
+padding: 50px 0 30px;
+```
+
+}
+
+/* ==========================================
+CONTACT HEADER
+========================================== */
+
+.contact-header {
+
+```
+text-align: center;
+
+margin-bottom: 55px;
+```
+
+}
+
+.back-home {
+
+```
+display: inline-flex;
+
+align-items: center;
+
+gap: 8px;
+
+text-decoration: none;
+
+color: white;
+
+background: #8b5cf6;
+
+padding: 11px 22px;
+
+border-radius: 30px;
+
+margin-bottom: 35px;
+
+transition: .3s;
+```
+
+}
+
+.back-home:hover {
+
+```
+transform: translateY(-4px);
+
+box-shadow: 0 0 20px #8b5cf6;
+```
+
+}
+
+.contact-small-title {
+
+```
+color: #8b5cf6;
+
+font-size: 14px;
+
+font-weight: 600;
+
+letter-spacing: 3px;
+
+margin-bottom: 10px;
+```
+
+}
+
+.contact-header h1 {
+
+```
+font-size: 48px;
+
+margin-bottom: 15px;
+```
+
+}
+
+.contact-intro {
+
+```
+max-width: 650px;
+
+margin: auto;
+
+color: #cbd5e1;
+
+line-height: 1.8;
+
+font-size: 16px;
+```
+
+}
+
+

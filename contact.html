@@ -3,39 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+
+    <title>Contact | Purvi Singh</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- ONLY contact page CSS -->
+    <link rel="stylesheet" href="css/contact.css">
 </head>
-<link rel="stylesheet" href="css/pages.css">
 
 <body>
-    <section class="page">
 
-<h1>Contact Me</h1>
+<div class="contact-container">
 
-<form>
+    <!-- NAVBAR -->
+    <nav class="contact-navbar">
 
-<input type="text" placeholder="Name">
+        <a href="index.html" class="contact-logo">
+            PS
+        </a>
 
-<input type="email" placeholder="Email">
+        <a href="index.html" class="back-home">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back to Home
+        </a>
 
-<textarea placeholder="Message"></textarea>
+    </nav>
 
-<button>Send</button>
 
-</form>
+    <!-- HEADING -->
+    <section class="contact-intro">
 
-<div class="social">
+        <span class="intro-label">GET IN TOUCH</span>
 
-<a href="https://github.com/Purvi995">GitHub</a>
+        <h1>Let's work together.</h1>
 
-<a href="https://www.linkedin.com/in/purvi-singh-6895a2317?">LinkedIn</a>
+        <p>
+            Have a project in mind, an internship opportunity, or just want
+            to connect? Feel free to send me a message.
+        </p>
 
-<a href="mailto:purvi151020@gmail.com">Email</a>
+    </section>
+
+
+    <!-- CONTACT CONTENT -->
+    <section class="contact-grid">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-info">
+
+            <h2>Contact Information</h2>
+
+            <p class="info-description">
+                I'm always interested in hearing about new opportunities,
+                projects and collaborations.
+            </p>
+
+
+            <!-- EMAIL -->
+            <a href="mailto:purvi151020@gmail.com" class="info-item">
+
+                <div class="info-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div class="info-text">
+                    <span>Email</span>
+                    <strong>purvi151020@gmail.com</strong>
+                </div>
+
+            </a>
+
+
+            <!-- GITHUB -->
+            <a href="https://github.com/Purvi995"
+               target="_blank"
+               class="info-item">
+
+                <div class="info-icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+
+                <div class="info-text">
+                    <span>GitHub</span>
+                    <strong>github.com/Purvi995</strong>
+                </div>
+
+            </a>
+
+
+            <!-- LINKEDIN -->
+            <a href="https://www.linkedin.com/in/purvi-singh-6895a2317/"
+               target="_blank"
+               class="info-item">
+
+                <div class="info-icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <div class="info-text">
+                    <span>LinkedIn</span>
+                    <strong>Purvi Singh</strong>
+                </div>
+
+            </a>
+
+
+            <!-- SOCIAL ICONS -->
+            <div class="social-icons">
+
+                <a href="https://github.com/Purvi995" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/purvi-singh-6895a2317/"
+                   target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:purvi151020@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="contact-form-box">
+
+            <h2>Send a message</h2>
+
+            <p class="form-description">
+                Fill in the details below and I'll get back to you.
+            </p>
+
+
+            <!-- FORM -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID"
+                  method="POST">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="What would you like to discuss?"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="send-btn">
+
+                    Send Message
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="contact-footer">
+
+        <span>© 2026 Purvi Singh</span>
+
+        <span>
+            Designed & Built with HTML, CSS & JavaScript
+        </span>
+
+    </footer>
 
 </div>
-
-</section>
-
 
 </body>
 </html>

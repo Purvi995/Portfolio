@@ -309,14 +309,14 @@ CONTACT PAGE
 
 .contact-page {
 
-```
+
 width: 90%;
 max-width: 1200px;
 
 margin: auto;
 
 padding: 50px 0 30px;
-```
+
 
 }
 
@@ -326,17 +326,17 @@ CONTACT HEADER
 
 .contact-header {
 
-```
+
 text-align: center;
 
 margin-bottom: 55px;
-```
+
 
 }
 
 .back-home {
 
-```
+
 display: inline-flex;
 
 align-items: center;
@@ -356,23 +356,23 @@ border-radius: 30px;
 margin-bottom: 35px;
 
 transition: .3s;
-```
+
 
 }
 
 .back-home:hover {
 
-```
+
 transform: translateY(-4px);
 
 box-shadow: 0 0 20px #8b5cf6;
-```
+
 
 }
 
 .contact-small-title {
 
-```
+
 color: #8b5cf6;
 
 font-size: 14px;
@@ -382,23 +382,23 @@ font-weight: 600;
 letter-spacing: 3px;
 
 margin-bottom: 10px;
-```
+
 
 }
 
 .contact-header h1 {
 
-```
+
 font-size: 48px;
 
 margin-bottom: 15px;
-```
+
 
 }
 
 .contact-intro {
 
-```
+
 max-width: 650px;
 
 margin: auto;
@@ -408,8 +408,257 @@ color: #cbd5e1;
 line-height: 1.8;
 
 font-size: 16px;
-```
+
 
 }
 
+
+/* ==============================
+   PROFESSIONAL SKILLS PAGE
+============================== */
+
+.skills-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 35px;
+    color: #e2e8f0;
+}
+
+.skills-header {
+    margin-bottom: 42px;
+}
+
+.skills-header .section-label {
+    display: inline-block;
+    color: #a78bfa;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.skills-header h1 {
+    font-size: 38px;
+    margin: 0 0 12px;
+}
+
+.skills-header h1 span {
+    color: #a78bfa;
+}
+
+.skills-header p {
+    color: #94a3b8;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.skills-section {
+    margin-bottom: 38px;
+}
+
+.skills-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.skills-section h2 i {
+    color: #a78bfa;
+    font-size: 19px;
+}
+
+.section-line {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        #8b5cf6,
+        #334155 75%,
+        transparent
+    );
+    margin-bottom: 22px;
+}
+
+/* Technical skill cards */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.skill-card {
+    background: #151e30;
+    border: 1px solid #273449;
+    border-radius: 14px;
+    padding: 22px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    border-color: #8b5cf6;
+}
+
+.skill-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skill-title i {
+    color: #a78bfa;
+    font-size: 23px;
+}
+
+.skill-title h3 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.skill-card p {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.7;
+    margin: 12px 0 16px;
+}
+
+/* Skill progress bars */
+
+.skill-card .bar {
+    height: 7px;
+    background: #293449;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-card .fill {
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+}
+
+/* Adjust these percentages to reflect your actual proficiency */
+
+.skill-card .fill.html {
+    width: 85%;
+}
+
+.skill-card .fill.css {
+    width: 80%;
+}
+
+.skill-card .fill.js {
+    width: 65%;
+}
+
+.skill-card .fill.react {
+    width: 50%;
+}
+
+.skill-card .fill.git {
+    width: 70%;
+}
+
+/* Core CS and soft skill tags */
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills-tags span {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #151e30;
+    border: 1px solid #303b52;
+    border-radius: 8px;
+    color: #dbe4f0;
+    font-size: 13px;
+    transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.skills-tags span:hover {
+    background: #292047;
+    border-color: #8b5cf6;
+}
+
+/* Achievements list */
+
+.achievement-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievement-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 17px;
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.achievement-list li i {
+    color: #a78bfa;
+    margin-top: 5px;
+}
+
+/* Back home button */
+
+.skills-footer {
+    margin-top: 35px;
+}
+
+.skills-footer .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 12px 22px;
+    border-radius: 9px;
+    background: #8b5cf6;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.skills-footer .btn:hover {
+    background: #7c3aed;
+    transform: translateY(-2px);
+}
+
+/* Mobile responsive layout */
+
+@media (max-width: 650px) {
+    .skills-page {
+        padding: 35px 20px;
+    }
+
+    .skills-header h1 {
+        font-size: 30px;
+    }
+
+    .skills-section h2 {
+        font-size: 18px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-tags span {
+        font-size: 12px;
+        padding: 9px 11px;
+    }
+}
 

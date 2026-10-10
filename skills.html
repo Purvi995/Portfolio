@@ -1,65 +1,149 @@
-<!DOCTYPE html>
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Skills</title>
+    <title>My Skills | Purvi Singh</title>
 
-<link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/pages.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-<section class="page">
+<section class="page skills-page">
 
-<h1>My Skills</h1>
+    <header class="skills-header">
+        <span class="section-label">WHAT I KNOW</span>
+        <h1>My <span>Skills</span></h1>
+        <p>A combination of technical knowledge, problem-solving
+           and continuous learning.</p>
+    </header>
 
-<div class="skill">
+    <!-- Technical Skills -->
+    <section class="skills-section">
+        <h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
+        <div class="section-line"></div>
 
-<h3>HTML</h3>
+        <div class="skills-grid">
 
-<div class="bar"><div class="fill html"></div></div>
+            <div class="skill-card">
+                <div class="skill-title">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <p>Semantic markup and accessible page structure.</p>
+                <div class="bar"><div class="fill html"></div></div>
+            </div>
 
-</div>
+            <div class="skill-card">
+                <div class="skill-title">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <p>Responsive layouts, styling and animations.</p>
+                <div class="bar"><div class="fill css"></div></div>
+            </div>
 
-<div class="skill">
+            <div class="skill-card">
+                <div class="skill-title">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <p>DOM manipulation, events and interactive features.</p>
+                <div class="bar"><div class="fill js"></div></div>
+            </div>
 
-<h3>CSS</h3>
+            <div class="skill-card">
+                <div class="skill-title">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <p>Building reusable components and user interfaces.</p>
+                <div class="bar"><div class="fill react"></div></div>
+            </div>
 
-<div class="bar"><div class="fill css"></div></div>
+            <div class="skill-card">
+                <div class="skill-title">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Git & GitHub</h3>
+                </div>
+                <p>Version control, repositories and project deployment.</p>
+                <div class="bar"><div class="fill git"></div></div>
+            </div>
 
-</div>
+        </div>
+    </section>
 
-<div class="skill">
+    <!-- Core CS Concepts -->
+    <section class="skills-section">
+        <h2><i class="fa-solid fa-laptop-code"></i> Core CS Concepts</h2>
+        <div class="section-line"></div>
 
-<h3>JavaScript</h3>
+        <div class="skills-tags">
+            <span>Data Structures & Algorithms</span>
+            <span>Object-Oriented Programming</span>
+            <span>Operating Systems</span>
+            <span>Computer Networks</span>
+            <span>Database Fundamentals</span>
+        </div>
+    </section>
 
-<div class="bar"><div class="fill js"></div></div>
+    <!-- Soft Skills -->
+    <section class="skills-section">
+        <h2><i class="fa-solid fa-people-group"></i> Soft Skills</h2>
+        <div class="section-line"></div>
 
-</div>
+        <div class="skills-tags">
+            <span>Problem Solving</span>
+            <span>Teamwork</span>
+            <span>Communication</span>
+            <span>Adaptability</span>
+            <span>Time Management</span>
+            <span>Continuous Learning</span>
+        </div>
+    </section>
 
-<div class="skill">
+    <!-- Achievements -->
+    <section class="skills-section">
+        <h2><i class="fa-solid fa-trophy"></i> Achievements & Participation</h2>
+        <div class="section-line"></div>
 
-<h3>React</h3>
+        <ul class="achievement-list">
+            <li>
+                <i class="fa-solid fa-circle-check"></i>
+                Developed mini projects to strengthen practical web
+                development and programming skills.
+            </li>
+            <li>
+                <i class="fa-solid fa-circle-check"></i>
+                Practiced programming concepts and problem-solving
+                through coding exercises.
+            </li>
+            <li>
+                <i class="fa-solid fa-circle-check"></i>
+                Continuously learning new technologies and improving
+                project development skills.
+            </li>
+        </ul>
+    </section>
 
-<div class="bar"><div class="fill react"></div></div>
-
-</div>
-
-<div class="skill">
-
-<h3>Git & GitHub</h3>
-
-<div class="bar"><div class="fill git"></div></div>
-
-</div>
-
-<a href="index.html" class="btn">Back Home</a>
+    <div class="skills-footer">
+        <a href="index.html" class="btn">
+            <i class="fa-solid fa-house"></i> Back Home
+        </a>
+    </div>
 
 </section>
 
 </body>
-
 </html>
